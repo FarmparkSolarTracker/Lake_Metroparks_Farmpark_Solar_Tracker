@@ -721,4 +721,49 @@ Text GLabel 5850 3100 2    60   Input ~ 0
 SCK
 Text GLabel 5850 4050 2    60   Input ~ 0
 RESET
+Text GLabel 5850 2600 2    60   Input ~ 0
+D8
+Text GLabel 5850 2700 2    60   Input ~ 0
+D9
+Text GLabel 5850 2800 2    60   Input ~ 0
+D10
+Text GLabel 5850 3450 2    60   Input ~ 0
+A0
+Text GLabel 5850 3550 2    60   Input ~ 0
+A1
+Text GLabel 5850 3650 2    60   Input ~ 0
+A2
+Text GLabel 5850 3750 2    60   Input ~ 0
+A3
+Text GLabel 5850 3850 2    60   Input ~ 0
+A4
+Text GLabel 5850 3950 2    60   Input ~ 0
+A5
+Text GLabel 5850 4400 2    60   Input ~ 0
+D2
+Text GLabel 5850 4500 2    60   Input ~ 0
+D3
+Text GLabel 5850 4600 2    60   Input ~ 0
+D4
+Text GLabel 5850 4700 2    60   Input ~ 0
+D5
+Text GLabel 5850 4800 2    60   Input ~ 0
+D6
+Text GLabel 5850 4900 2    60   Input ~ 0
+D7
+Text GLabel 3950 3950 0    60   Input ~ 0
+A6
+Text GLabel 3950 4050 0    60   Input ~ 0
+A7
+$Comp
+L USB_OTG J?
+U 1 1 59C40EC6
+P 1150 1800
+F 0 "J?" H 950 2250 50  0000 L CNN
+F 1 "USB_OTG" H 950 2150 50  0000 L CNN
+F 2 "" H 1300 1750 50  0001 C CNN
+F 3 "" H 1300 1750 50  0001 C CNN
+	1    1150 1800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
