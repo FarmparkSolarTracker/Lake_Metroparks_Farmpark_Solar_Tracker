@@ -1,4 +1,4 @@
-update=9/9/2017 10:20:32 AM
+update=9/21/2017 9:30:14 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=library/ICs
+LibName31=H:/My Documents/Lake_Metroparks_Farmpark_Solar_Tracker/KiCad/library/PASSIVES
