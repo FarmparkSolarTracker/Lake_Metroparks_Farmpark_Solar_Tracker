@@ -1,4 +1,4 @@
-update=9/21/2017 9:30:14 PM
+update=9/22/2017 9:39:29 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=library
+LibDir=library;library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -60,3 +60,13 @@ LibName28=contrib
 LibName29=valves
 LibName30=library/ICs
 LibName31=H:/My Documents/Lake_Metroparks_Farmpark_Solar_Tracker/KiCad/library/PASSIVES
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
