@@ -1,8 +1,8 @@
-(module nFET (layer F.Cu) (tedit 59D3F872)
-  (fp_text reference wSMD (at 0 12.7) (layer F.SilkS) hide
+(module nFET (layer F.Cu) (tedit 59D64761)
+  (fp_text reference wSMD (at 4.43 1.35 90) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value nFET (at 0 -10.16) (layer F.Fab)
+  (fp_text value nFET (at -1.24 1.37 90) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 0 2.6) (end 0 0) (layer F.SilkS) (width 0.15))
