@@ -36,10 +36,10 @@ EELAYER END
 $Descr B 17000 11000
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "48V Solar Tracking Controller"
+Date "2017-10-05"
+Rev "1.0"
+Comp "W. Nourse, D. Parikh, & P. van Rooy"
 Comment1 ""
 Comment2 ""
 Comment3 ""
