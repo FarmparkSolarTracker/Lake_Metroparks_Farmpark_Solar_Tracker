@@ -2,11 +2,11 @@
 
   (general
     (links 387)
-    (no_connects 335)
-    (area -80.955 -9.305 132.225001 244.275)
+    (no_connects 334)
+    (area -60.625001 -51.205 232.075001 244.275)
     (thickness 1.6)
     (drawings 0)
-    (tracks 0)
+    (tracks 1)
     (zones 0)
     (modules 134)
     (nets 152)
@@ -37,7 +37,8 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.254)
+    (user_trace_width 0.254)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
     (zone_45_only no)
@@ -1324,7 +1325,7 @@
   )
 
   (module Capacitors_SMD:C_1206_HandSoldering (layer F.Cu) (tedit 58AA84D1) (tstamp 59D65DAA)
-    (at -5.08 148.59)
+    (at 256.54 -38.1)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /59B3EEFD)
@@ -1432,7 +1433,7 @@
   )
 
   (module Capacitors_SMD:C_1206_HandSoldering (layer F.Cu) (tedit 58AA84D1) (tstamp 59D65DBC)
-    (at -5.08 165.1)
+    (at 271.78 -20.32)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /59B3EF34)
@@ -1504,7 +1505,7 @@
   )
 
   (module Capacitors_SMD:C_1206_HandSoldering (layer F.Cu) (tedit 58AA84D1) (tstamp 59D65DC8)
-    (at -5.08 177.8)
+    (at 271.78 -26.67)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /59B3F340)
@@ -1576,7 +1577,7 @@
   )
 
   (module Capacitors_SMD:C_1206_HandSoldering (layer F.Cu) (tedit 58AA84D1) (tstamp 59D65DD4)
-    (at -5.08 190.5)
+    (at 271.78 -13.97)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /59B3F3D3)
@@ -1612,7 +1613,7 @@
   )
 
   (module Capacitors_SMD:C_1206_HandSoldering (layer F.Cu) (tedit 58AA84D1) (tstamp 59D65DDA)
-    (at -5.08 195.58)
+    (at 271.78 -8.89)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /59CC7631)
@@ -1897,7 +1898,7 @@
   )
 
   (module LEDs:LED_1206_HandSoldering (layer F.Cu) (tedit 595FC724) (tstamp 59D65E11)
-    (at -25.4 41.91)
+    (at 245.11 6.35)
     (descr "LED SMD 1206, hand soldering")
     (tags "LED 1206")
     (path /59B3F7E5)
@@ -1935,7 +1936,7 @@
   )
 
   (module SOLAR_TRACKER:tvs_quad (layer F.Cu) (tedit 59D64AAB) (tstamp 59D65E20)
-    (at -25.4 48.26)
+    (at 295.91 -11.43)
     (path /59C4CAEF)
     (fp_text reference D7 (at 0.2 -2.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1963,7 +1964,7 @@
   )
 
   (module SOLAR_TRACKER:tvs_quad (layer F.Cu) (tedit 59D64AAB) (tstamp 59D65E2F)
-    (at -25.4 54.61)
+    (at 295.91 -5.08)
     (path /59C4BD01)
     (fp_text reference D8 (at 0.2 -2.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1991,7 +1992,7 @@
   )
 
   (module SOLAR_TRACKER:tvs_quad (layer F.Cu) (tedit 59D64AAB) (tstamp 59D65E3E)
-    (at -25.4 60.96)
+    (at 295.91 1.27)
     (path /59C6FE03)
     (fp_text reference D9 (at 0.2 -2.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2057,7 +2058,7 @@
   )
 
   (module LEDs:LED_1206_HandSoldering (layer F.Cu) (tedit 595FC724) (tstamp 59D65E4A)
-    (at -25.4 73.66)
+    (at 264.16 -8.89)
     (descr "LED SMD 1206, hand soldering")
     (tags "LED 1206")
     (path /59CAE39E)
@@ -2095,7 +2096,7 @@
   )
 
   (module LEDs:LED_1206_HandSoldering (layer F.Cu) (tedit 595FC724) (tstamp 59D65E50)
-    (at -25.4 78.74)
+    (at 264.16 -3.81)
     (descr "LED SMD 1206, hand soldering")
     (tags "LED 1206")
     (path /59CAFB7A)
@@ -2171,7 +2172,7 @@
   )
 
   (module SOLAR_TRACKER:tvs_quad (layer F.Cu) (tedit 59D64AAB) (tstamp 59D65E65)
-    (at -25.4 93.98)
+    (at 295.91 -17.78)
     (path /59D04E1A)
     (fp_text reference D14 (at 0.2 -2.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2199,7 +2200,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 58CE4E7E) (tstamp 59D65E6C)
-    (at -25.4 100.33)
+    (at 271.78 -34.29)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /59B40DD6)
@@ -2240,7 +2241,7 @@
   )
 
   (module Connectors_Phoenix:PhoenixContact_GMSTBA-G_02x7.50mm_Angled (layer F.Cu) (tedit 59566E5C) (tstamp 59D65E72)
-    (at 19.05 130.81)
+    (at 27.94 -19.05)
     (descr "Generic Phoenix Contact connector footprint for series: GMSTBA-G; number of pins: 02; pin pitch: 7.50mm; Angled || order number: 1766343 12A 630V")
     (tags "phoenix_contact connector GMSTBA_01x02_G_7.50mm")
     (path /59CAB3A7)
@@ -2335,7 +2336,7 @@
   )
 
   (module Connectors_Phoenix:PhoenixContact_GMSTBA-G_02x7.50mm_Angled (layer F.Cu) (tedit 59566E5C) (tstamp 59D65E85)
-    (at 19.05 111.76)
+    (at 132.08 -60.96)
     (descr "Generic Phoenix Contact connector footprint for series: GMSTBA-G; number of pins: 02; pin pitch: 7.50mm; Angled || order number: 1766343 12A 630V")
     (tags "phoenix_contact connector GMSTBA_01x02_G_7.50mm")
     (path /59C94C53)
@@ -2389,7 +2390,7 @@
   )
 
   (module Connectors_Phoenix:PhoenixContact_GMSTBA-G_05x7.50mm_Angled (layer F.Cu) (tedit 59566E5C) (tstamp 59D65E8E)
-    (at 19.05 72.39)
+    (at 304.8 -35.56)
     (descr "Generic Phoenix Contact connector footprint for series: GMSTBA-G; number of pins: 05; pin pitch: 7.50mm; Angled || order number: 1766372 12A 630V")
     (tags "phoenix_contact connector GMSTBA_01x05_G_7.50mm")
     (path /59C62C6E)
@@ -2461,7 +2462,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59D65E98)
-    (at 16.51 189.23)
+    (at 303.53 -2.54)
     (descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x03 2.54mm double row")
     (path /59C4698F)
@@ -2511,7 +2512,7 @@
   )
 
   (module Connectors_Phoenix:PhoenixContact_GMSTBA-G_08x7.50mm_Angled (layer F.Cu) (tedit 59566E5C) (tstamp 59D65EA4)
-    (at 19.05 91.44)
+    (at 304.8 -17.78)
     (descr "Generic Phoenix Contact connector footprint for series: GMSTBA-G; number of pins: 08; pin pitch: 7.50mm; Angled || order number: 1766408 12A 630V")
     (tags "phoenix_contact connector GMSTBA_01x08_G_7.50mm")
     (path /59D056E6)
@@ -2601,7 +2602,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59D65EAA)
-    (at 31.75 186.69)
+    (at 312.42 -2.54)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /59CFAEEC)
@@ -2641,7 +2642,7 @@
   )
 
   (module Connectors_Phoenix:PhoenixContact_GMSTBA-G_02x7.50mm_Angled (layer F.Cu) (tedit 59566E5C) (tstamp 59D65EB0)
-    (at 17.78 148.59)
+    (at 92.71 -60.96)
     (descr "Generic Phoenix Contact connector footprint for series: GMSTBA-G; number of pins: 02; pin pitch: 7.50mm; Angled || order number: 1766343 12A 630V")
     (tags "phoenix_contact connector GMSTBA_01x02_G_7.50mm")
     (path /59C94D86)
@@ -2695,7 +2696,7 @@
   )
 
   (module Connectors_Phoenix:PhoenixContact_GMSTBA-G_03x7.50mm_Angled (layer F.Cu) (tedit 59566E5D) (tstamp 59D65EB7)
-    (at 17.78 168.91)
+    (at 269.24 -55.88)
     (descr "Generic Phoenix Contact connector footprint for series: GMSTBA-G; number of pins: 03; pin pitch: 7.50mm; Angled || order number: 1766356 12A 630V")
     (tags "phoenix_contact connector GMSTBA_01x03_G_7.50mm")
     (path /59C4919B)
@@ -3419,7 +3420,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59D65F3D)
-    (at -57.15 93.98)
+    (at 295.91 -29.21)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /59C68CC3)
@@ -3455,7 +3456,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59D65F43)
-    (at -57.15 99.06)
+    (at 295.91 -24.13)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /59C68F6A)
@@ -3563,7 +3564,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59D65F55)
-    (at -57.15 115.57)
+    (at 245.11 -20.32)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /59C472FD)
@@ -3599,7 +3600,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59D65F5B)
-    (at -57.15 121.92)
+    (at 245.11 -13.97)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /59C480AA)
@@ -3635,7 +3636,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59D65F61)
-    (at -57.15 127)
+    (at 245.11 -8.89)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /59C48208)
@@ -3671,7 +3672,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59D65F67)
-    (at -57.15 132.08)
+    (at 245.11 -3.81)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /59C467DB)
@@ -3743,7 +3744,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59D65F73)
-    (at -57.15 142.24)
+    (at 256.54 -8.89)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /59CAE3A4)
@@ -3815,7 +3816,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59D65F7F)
-    (at -57.15 152.4)
+    (at 256.54 -3.81)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /59CAFB80)
@@ -3851,7 +3852,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59D65F85)
-    (at -57.15 157.48)
+    (at 256.54 -33.02)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /59C48A3E)
@@ -3887,7 +3888,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59D65F8B)
-    (at -57.15 162.56)
+    (at 256.54 -27.94)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /59B4177D)
@@ -3923,7 +3924,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59D65F91)
-    (at -57.15 167.64)
+    (at 256.54 -22.86)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /59B3F989)
@@ -3959,7 +3960,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59D65F97)
-    (at -57.15 175.26)
+    (at 256.54 -15.24)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /59B3F95E)
@@ -4031,7 +4032,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59D65FA3)
-    (at -57.15 185.42)
+    (at 245.11 1.27)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /59B3F89F)
@@ -4067,7 +4068,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59D65FA9)
-    (at -57.15 190.5)
+    (at 271.78 -3.81)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /59C9DB3C)
@@ -4103,7 +4104,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59D65FAF)
-    (at -57.15 195.58)
+    (at 264.16 -40.64)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /59CCDC2E)
@@ -4139,7 +4140,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59D65FB5)
-    (at -57.15 200.66)
+    (at 264.16 -35.56)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /59CCD432)
@@ -4175,7 +4176,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59D65FBB)
-    (at -57.15 205.74)
+    (at 264.16 -30.48)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /59B3F9B6)
@@ -4211,7 +4212,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59D65FC1)
-    (at -57.15 210.82)
+    (at 264.16 -25.4)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /59B3F9E5)
@@ -4247,7 +4248,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59D65FC7)
-    (at -57.15 215.9)
+    (at 264.16 -20.32)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /59CCFFE1)
@@ -4283,7 +4284,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59D65FCD)
-    (at -57.15 220.98)
+    (at 264.16 -15.24)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /59CD00F7)
@@ -4427,7 +4428,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59D65FE5)
-    (at -57.15 241.3)
+    (at 295.91 -35.56)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /59CF7975)
@@ -5035,7 +5036,7 @@
   )
 
   (module Housings_DIP:DIP-8_W7.62mm (layer F.Cu) (tedit 59C78D6B) (tstamp 59D660BF)
-    (at 100.33 20.32)
+    (at 255.27 -55.88)
     (descr "8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (path /59B3FD14)
@@ -5425,7 +5426,7 @@
   )
 
   (module SOLAR_TRACKER:opto (layer F.Cu) (tedit 59D668A0) (tstamp 59D67510)
-    (at -25.4 -5.08)
+    (at 255.27 3.81)
     (path /59C48833)
     (fp_text reference U7 (at -2.75 -0.5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5450,7 +5451,7 @@
   )
 
   (module SOLAR_TRACKER:opto (layer F.Cu) (tedit 59D668A0) (tstamp 59D6751E)
-    (at -19.05 -5.08)
+    (at 261.62 3.81)
     (path /59B4122A)
     (fp_text reference U8 (at -2.75 -0.5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5475,7 +5476,7 @@
   )
 
   (module SOLAR_TRACKER:opto (layer F.Cu) (tedit 59D668A0) (tstamp 59D6752C)
-    (at -12.7 -5.08)
+    (at 267.97 3.81)
     (path /59B412C7)
     (fp_text reference U9 (at -2.75 -0.5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5500,7 +5501,7 @@
   )
 
   (module SOLAR_TRACKER:opto (layer F.Cu) (tedit 59D668A0) (tstamp 59D6753A)
-    (at -6.35 -5.08)
+    (at 274.32 3.81)
     (path /59B4131C)
     (fp_text reference U10 (at -2.75 -0.5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5525,7 +5526,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59D677A0)
-    (at 44.45 191.77)
+    (at 317.5 -2.54)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /59CFB03B)
@@ -5563,5 +5564,7 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (segment (start 18.32 -35.56) (end 18.32 -29.21) (width 0.25) (layer F.Cu) (net 41) (status C00000))
 
 )
