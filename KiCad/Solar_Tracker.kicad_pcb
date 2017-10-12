@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.6)
+(kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
     (links 387)
     (no_connects 335)
-    (area 11.979 -64.935 445.845001 100.405001)
+    (area 5.805 -45.905 320.975001 108.595)
     (thickness 1.6)
     (drawings 3)
     (tracks 0)
@@ -63,7 +63,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFF7FF)
+    (visible_elements 7FFEF7FF)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -1073,7 +1073,7 @@
   )
 
   (module Capacitors_SMD:C_1206_HandSoldering (layer F.Cu) (tedit 58AA84D1) (tstamp 59D65D80)
-    (at 99.06 -43.18)
+    (at 341.63 24.13)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /59CD9DD4)
@@ -1109,7 +1109,7 @@
   )
 
   (module Capacitors_SMD:C_1206_HandSoldering (layer F.Cu) (tedit 58AA84D1) (tstamp 59D65D86)
-    (at 107.95 -38.1)
+    (at 350.52 29.21)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /59CD9DB3)
@@ -1145,7 +1145,7 @@
   )
 
   (module Capacitors_SMD:C_1206_HandSoldering (layer F.Cu) (tedit 58AA84D1) (tstamp 59D65D8C)
-    (at 107.95 -43.18)
+    (at 350.52 24.13)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /59CD9DF9)
@@ -1181,7 +1181,7 @@
   )
 
   (module Capacitors_SMD:C_1206_HandSoldering (layer F.Cu) (tedit 58AA84D1) (tstamp 59D65D92)
-    (at 99.06 -38.1)
+    (at 341.63 29.21)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /59CD9DA9)
@@ -1217,7 +1217,7 @@
   )
 
   (module Capacitors_SMD:C_1206_HandSoldering (layer F.Cu) (tedit 58AA84D1) (tstamp 59D65D98)
-    (at 107.95 -33.02)
+    (at 350.52 34.29)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /59CD9DC6)
@@ -2020,7 +2020,7 @@
   )
 
   (module LEDs:LED_1206_HandSoldering (layer F.Cu) (tedit 595FC724) (tstamp 59D65E44)
-    (at 99.06 -21.59)
+    (at 341.63 45.72)
     (descr "LED SMD 1206, hand soldering")
     (tags "LED 1206")
     (path /59CD9D5E)
@@ -3312,7 +3312,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59D65F2B)
-    (at 304.8 52.07 270)
+    (at 299.72 52.07 270)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /59CE42EE)
@@ -3348,7 +3348,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59D65F31)
-    (at 300.99 52.07 270)
+    (at 297.18 52.07 270)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /59CE42E8)
@@ -3492,7 +3492,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59D65F49)
-    (at 107.95 -21.59)
+    (at 350.52 45.72)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /59CD9D64)
@@ -3528,7 +3528,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59D65F4F)
-    (at 99.06 -27.94)
+    (at 341.63 39.37)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /59CD9D8F)
@@ -3708,7 +3708,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59D65F6D)
-    (at 107.95 -27.94)
+    (at 350.52 39.37)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /59CD9D89)
@@ -3780,7 +3780,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59D65F79)
-    (at 99.06 -33.02)
+    (at 341.63 34.29)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /59CD9DDA)
@@ -4896,7 +4896,7 @@
   )
 
   (module Housings_SSOP:ST_PowerSSO-24_SlugDown_ThermalVias (layer F.Cu) (tedit 59ADF068) (tstamp 59D660A7)
-    (at 102.87 -1.27)
+    (at 345.44 66.04)
     (descr "ST PowerSSO-24 1EP 7.5x10.3mm Pitch 0.8mm [JEDEC MO-271] (http://www.st.com/resource/en/datasheet/tda7266p.pdf, http://freedatasheets.com/downloads/Technical%20Note%20Powersso24%20TN0054.pdf)")
     (tags "ST PowerSSO-24 1EP 7.5x10.3mm Pitch 0.8mm")
     (path /59CD9D83)
@@ -5276,32 +5276,32 @@
   )
 
   (module SOLAR_TRACKER:nFET (layer F.Cu) (tedit 59D64761) (tstamp 59D66CD1)
-    (at 304.8 60.96 180)
+    (at 295.91 48.26 90)
     (path /59CE42D4)
-    (fp_text reference Q3 (at 4.43 1.35 270) (layer F.SilkS) hide
+    (fp_text reference Q3 (at 4.43 1.35 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value BUK9M42-60E (at -1.24 1.37 270) (layer F.Fab)
+    (fp_text value BUK9M42-60E (at -1.24 1.37 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0 2.6) (end 0 0) (layer F.SilkS) (width 0.15))
     (fp_line (start 0 0) (end 3.4 0) (layer F.SilkS) (width 0.15))
     (fp_line (start 3.4 0) (end 3.4 2.6) (layer F.SilkS) (width 0.15))
     (fp_line (start 3.4 2.6) (end 0 2.6) (layer F.SilkS) (width 0.15))
-    (pad 3 smd rect (at 2 3.1 180) (size 0.45 1) (layers F.Cu F.Paste F.Mask)
+    (pad 3 smd rect (at 2 3.1 90) (size 0.45 1) (layers F.Cu F.Paste F.Mask)
       (net 15 "Net-(C17-Pad2)"))
-    (pad 4 smd rect (at 2.65 3.1 180) (size 0.45 1) (layers F.Cu F.Paste F.Mask)
+    (pad 4 smd rect (at 2.65 3.1 90) (size 0.45 1) (layers F.Cu F.Paste F.Mask)
       (net 79 "Net-(Q3-Pad4)"))
-    (pad 2 smd rect (at 1.34 3.1 180) (size 0.45 1) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.34 3.1 90) (size 0.45 1) (layers F.Cu F.Paste F.Mask)
       (net 15 "Net-(C17-Pad2)"))
-    (pad 1 smd rect (at 0.68 3.1 180) (size 0.45 1) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at 0.68 3.1 90) (size 0.45 1) (layers F.Cu F.Paste F.Mask)
       (net 15 "Net-(C17-Pad2)"))
-    (pad mb smd rect (at 1.67 -0.13 180) (size 2.45 5) (layers F.Cu F.Paste F.Mask)
+    (pad mb smd rect (at 1.67 -0.13 90) (size 2.45 5) (layers F.Cu F.Paste F.Mask)
       (net 16 EL_F))
   )
 
   (module SOLAR_TRACKER:nFET (layer F.Cu) (tedit 59D64761) (tstamp 59D66CDE)
-    (at 294.64 52.07)
+    (at 292.1 52.07)
     (path /59CE42CE)
     (fp_text reference Q4 (at 4.43 1.35 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5326,7 +5326,7 @@
   )
 
   (module SOLAR_TRACKER:nFET (layer F.Cu) (tedit 59D64761) (tstamp 59D66CEB)
-    (at 105.41 -13.97)
+    (at 354.33 57.15)
     (path /59CD9D76)
     (fp_text reference Q5 (at 4.43 1.35 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5351,7 +5351,7 @@
   )
 
   (module SOLAR_TRACKER:nFET (layer F.Cu) (tedit 59D664B7) (tstamp 59D66CF8)
-    (at 97.79 -13.97)
+    (at 360.68 57.15)
     (path /59CD9D70)
     (fp_text reference Q6 (at 4.43 1.35 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
