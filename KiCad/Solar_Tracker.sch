@@ -3049,7 +3049,7 @@ U 1 1 59CFB03B
 P 9350 7300
 F 0 "J11" H 9350 7475 50  0000 C CNN
 F 1 "ELJMP" H 9350 7100 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 9350 7400 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 9350 7400 50  0001 C CNN
 F 3 "" H 9350 7400 50  0001 C CNN
 	1    9350 7300
 	-1   0    0    -1  
