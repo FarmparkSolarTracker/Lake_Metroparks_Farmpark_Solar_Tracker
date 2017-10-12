@@ -885,21 +885,21 @@ RX
 Text GLabel 2150 7850 0    60   Input ~ 0
 TX
 Text GLabel 3500 7000 2    60   Input ~ 0
-ELLH
+ELBH
 Text GLabel 3500 7100 2    60   Input ~ 0
-ELLL
+ELBL
 Text GLabel 3500 7200 2    60   Input ~ 0
-ELRH
+ELFH
 Text GLabel 3500 7300 2    60   Input ~ 0
-ELRL
+ELFL
 Text GLabel 3500 7650 2    60   Input ~ 0
-AZLH
+AZBH
 Text GLabel 3500 7750 2    60   Input ~ 0
-AZLL
+AZBL
 Text GLabel 3500 7850 2    60   Input ~ 0
-AZRH
+AZFH
 Text GLabel 3500 7950 2    60   Input ~ 0
-AZRL
+AZFL
 Text GLabel 3500 7400 2    60   Input ~ 0
 AZRTE
 Text GLabel 3500 7500 2    60   Input ~ 0
@@ -1442,9 +1442,9 @@ F 3 "" H 15750 1400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 15100 1500 1    60   Input ~ 0
-PB0
+AZFH
 Text GLabel 14950 1500 1    60   Input ~ 0
-PB1
+AZFL
 $Comp
 L C_Small C31
 U 1 1 59CA82A3
@@ -1664,9 +1664,9 @@ F 3 "" H 11700 1400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 11050 1500 1    60   Input ~ 0
-PB2
+AZBH
 Text GLabel 10900 1500 1    60   Input ~ 0
-PB3
+AZBL
 $Comp
 L C_Small C22
 U 1 1 59CD9DF9
@@ -1886,9 +1886,9 @@ F 3 "" H 7700 1400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 7050 1500 1    60   Input ~ 0
-PB4
+ELFH
 Text GLabel 6900 1500 1    60   Input ~ 0
-PB5
+ELFL
 $Comp
 L C_Small C17
 U 1 1 59CE4360
@@ -2108,9 +2108,9 @@ F 3 "" H 3700 1400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 3050 1500 1    60   Input ~ 0
-PB6
+ELBH
 Text GLabel 2900 1500 1    60   Input ~ 0
-PB7
+ELBL
 $Comp
 L C_Small C5
 U 1 1 59CE908A
