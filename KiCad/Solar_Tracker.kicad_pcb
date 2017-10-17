@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.6)
+(kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
     (links 325)
     (no_connects 249)
-    (area 0 0 0 0)
+    (area -68.035713 -50.73 305.317142 163.91)
     (thickness 1.6)
     (drawings 32)
     (tracks 134)
@@ -38,7 +38,7 @@
 
   (setup
     (last_trace_width 0.25)
-    (user_trace_width 0.254)
+    (user_trace_width 0.508)
     (user_trace_width 2.54)
     (user_trace_width 5.08)
     (trace_clearance 0.2)
