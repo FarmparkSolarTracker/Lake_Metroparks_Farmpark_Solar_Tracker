@@ -884,17 +884,17 @@ Text GLabel 2150 7950 0    60   Input ~ 0
 RX
 Text GLabel 2150 7850 0    60   Input ~ 0
 TX
-Text GLabel 3500 7300 2    60   Input ~ 0
-ELBH
-Text GLabel 3500 7200 2    60   Input ~ 0
-ELBL
 Text GLabel 3500 7100 2    60   Input ~ 0
-ELFH
+ELBH
 Text GLabel 3500 7000 2    60   Input ~ 0
-ELFL
+ELBL
 Text GLabel 3500 7950 2    60   Input ~ 0
-AZBH
+ELFH
 Text GLabel 3500 7850 2    60   Input ~ 0
+ELFL
+Text GLabel 3500 7300 2    60   Input ~ 0
+AZBH
+Text GLabel 3500 7200 2    60   Input ~ 0
 AZBL
 Text GLabel 3500 7750 2    60   Input ~ 0
 AZFH
