@@ -4829,6 +4829,10 @@
     )
   )
 
+  (gr_line (start 171.99138 12.03706) (end 11.99138 12.03706) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 171.99138 112.03706) (end 171.99138 12.03706) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 11.99138 112.03706) (end 171.99138 112.03706) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 11.99138 12.03706) (end 11.99138 112.03706) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_text EL (at 34.036 23.622) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
@@ -4943,10 +4947,6 @@
   (gr_text GRN (at 127.508 99.949 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_line (start 171.83998 112.00254) (end 171.83998 12.00254) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 11.90856 12.31242) (end 171.90856 12.31242) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 11.99492 111.99746) (end 171.99492 111.99746) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 12.00762 12.00254) (end 12.00762 112.00254) (angle 90) (layer Edge.Cuts) (width 0.15))
 
   (segment (start 169.8625 88.8365) (end 169.8625 66.9925) (width 0.508) (layer F.Cu) (net 0))
   (segment (start 116.0145 16.383) (end 115.824 16.1925) (width 0.508) (layer F.Cu) (net 0) (tstamp 59F25073))

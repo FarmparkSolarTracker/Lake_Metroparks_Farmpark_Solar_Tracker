@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "//Client/H$/My Documents/Lake_Metroparks_Farmpark_Solar_Tracker/KiCad/Solar_Tracker.sch")
-    (date "11/12/2017 11:28:13 AM")
+    (date "11/12/2017 11:29:28 AM")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
