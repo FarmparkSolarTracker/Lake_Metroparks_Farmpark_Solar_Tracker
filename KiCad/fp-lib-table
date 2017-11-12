@@ -1,4 +1,4 @@
 (fp_lib_table
   (lib (name Solar)(type KiCad)(uri "H:/My Documents/Lake_Metroparks_Farmpark_Solar_Tracker/KiCad")(options "")(descr ""))
-  (lib (name SOLAR)(type KiCad)(uri "H:/My Documents/Lake_Metroparks_Farmpark_Solar_Tracker/KiCad/SOLAR.pretty")(options "")(descr ""))
+  (lib (name SOLAR)(type KiCad)(uri "$(KIPRJMOD)\\SOLAR.pretty")(options "")(descr ""))
 )
