@@ -884,21 +884,21 @@ Text GLabel 2150 7950 0    60   Input ~ 0
 RX
 Text GLabel 2150 7850 0    60   Input ~ 0
 TX
-Text GLabel 6250 8500 2    60   Input ~ 0
-ELBH
-Text GLabel 6250 8400 2    60   Input ~ 0
-ELBL
-Text GLabel 6250 9100 2    60   Input ~ 0
-ELFH
-Text GLabel 6250 9000 2    60   Input ~ 0
-ELFL
-Text GLabel 6250 8700 2    60   Input ~ 0
-AZBH
-Text GLabel 6250 8600 2    60   Input ~ 0
-AZBL
 Text GLabel 6250 8900 2    60   Input ~ 0
-AZFH
+ELBH
 Text GLabel 6250 8800 2    60   Input ~ 0
+ELBL
+Text GLabel 6250 8700 2    60   Input ~ 0
+ELFH
+Text GLabel 6250 8600 2    60   Input ~ 0
+ELFL
+Text GLabel 6250 9100 2    60   Input ~ 0
+AZBH
+Text GLabel 6250 9000 2    60   Input ~ 0
+AZBL
+Text GLabel 6250 8500 2    60   Input ~ 0
+AZFH
+Text GLabel 6250 8400 2    60   Input ~ 0
 AZFL
 Text GLabel 3500 7400 2    60   Input ~ 0
 AZRTE
@@ -2517,12 +2517,12 @@ $EndComp
 $Comp
 L R R42
 U 1 1 5A092D74
-P 4750 8450
-F 0 "R42" V 4830 8450 50  0000 C CNN
-F 1 "1K" V 4750 8450 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 4680 8450 50  0001 C CNN
-F 3 "" H 4750 8450 50  0001 C CNN
-	1    4750 8450
+P 4750 8100
+F 0 "R42" V 4830 8100 50  0000 C CNN
+F 1 "1K" V 4750 8100 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4680 8100 50  0001 C CNN
+F 3 "" H 4750 8100 50  0001 C CNN
+	1    4750 8100
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3413,8 +3413,6 @@ F 3 "" H 4350 8100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 8600 4750 8600
-Wire Wire Line
 	4550 8600 4550 8700
 Connection ~ 4550 8700
 Wire Wire Line
@@ -3442,13 +3440,13 @@ Wire Wire Line
 Wire Wire Line
 	5050 7900 5050 9650
 Wire Wire Line
-	5050 7900 4350 7900
+	4350 7900 5050 7900
 Connection ~ 4350 7900
 Wire Wire Line
 	4550 7950 4550 7900
 Connection ~ 4550 7900
 Wire Wire Line
-	4750 8300 4750 7900
+	4750 7950 4750 7900
 Connection ~ 4750 7900
 $Comp
 L GND #PWR32
@@ -3546,4 +3544,13 @@ F 3 "" H 5650 9100 60  0001 C CNN
 	1    5650 9100
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4650 8600 5100 8600
+Wire Wire Line
+	4750 8600 4750 8250
+Wire Wire Line
+	3400 7650 4650 7650
+Wire Wire Line
+	4650 7650 4650 8600
+Connection ~ 4750 8600
 $EndSCHEMATC
