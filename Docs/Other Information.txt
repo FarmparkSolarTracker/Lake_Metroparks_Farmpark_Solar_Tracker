@@ -1,0 +1,25 @@
+Wattsun Contact Information:
+	-The panel/installation model is the AZ-120
+	-The two people at Watt-sun to contact are:
+		-Jeff: (976)476-1256
+		-Kyle: (973)647-7751
+	-A replacement motor unit for the Azimuth unit was quoted to be $235, plus shipping
+
+Drive Information:
+	-I had difficulty getting the timing of the PWM expander to work with driving both the top and bottom
+	of each H-Bridge, so the compromise I reached was that the bottom mosfet of the H-bridge on the appropriate
+	side is held on for the duration of motion, and the corresponding top transistor is PWMed to control the 
+	speed/voltage of the motor.
+
+Preliminary Light Sensor Data:
+	SIDE OF SENSOR FACING SUN | WHITE WIRE ADC | GREEN WIRE ADC
+	-----------------------------------------------------------
+	Middle					  | 1023           | 1023
+	-----------------------------------------------------------
+	Right					  | 0              | 1023
+	-----------------------------------------------------------
+	Left                      | 1000           | 300
+	-----------------------------------------------------------
+	Top                       | 600            | 1000
+	-----------------------------------------------------------
+	Bottom                    | 1000           | 0

@@ -1,0 +1,8 @@
+(module gate_driver (layer F.Cu) (tedit 5A0869A8)
+  (fp_text reference REF** (at -22.86 7.62) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value gate_driver (at -22.86 3.81) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)

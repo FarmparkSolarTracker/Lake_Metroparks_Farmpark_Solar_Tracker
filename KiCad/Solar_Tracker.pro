@@ -1,4 +1,4 @@
-update=12/5/2017 4:31:54 PM
+update=12/15/2017 10:50:05 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,7 +64,7 @@ LibName32=library/PASSIVES
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=C:/Users/willi/Desktop/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
