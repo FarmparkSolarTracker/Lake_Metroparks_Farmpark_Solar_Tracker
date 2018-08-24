@@ -23,3 +23,28 @@ Preliminary Light Sensor Data:
 	Top                       | 600            | 1000
 	-----------------------------------------------------------
 	Bottom                    | 1000           | 0
+
+Sensor schematic/pinout
+	-Red: +5v in (needs a current limiting resistor)
+	-Green: Middle of 2 photodiodes
+	-White: Middle of other 2 photodiodes
+	-Black: Ground
+	-Bare: Ground for shielding
+
+	 -------------------------------------------O +5v
+	 |             |                    
+	 |             | 
+	___           ___
+	\_/           \_/
+	---           ---
+	 |             |
+	 |             |____________________________O Green
+	 |             |                              
+	 |_____________|____________________________O White
+	 |             |                    
+	 |             | 
+	___           ___
+	\_/           \_/
+	---           ---
+	 |             |
+	 -------------------------------------------O Black
